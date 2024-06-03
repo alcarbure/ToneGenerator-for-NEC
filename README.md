@@ -3,6 +3,8 @@ Il s’agit de réaliser un petit générateur de son et d’ultrason afin de fa
 
 This involves creating a small sound and ultrasound generator in order to raise awareness of the world of bats during the NEC (European Bat Night).
 
+_____________________________________________________________
+
 ## Projet initial : 
 La première version du générateur de son/ultarson étais axée sur un NE555 bien connus de nos ancien dont je fais partie, mais le principal inconvénient est sa stabilité dans le temps ceci dû au composant utilisé pour la génération du signal rectangulaire analogique. De nombreux utilisateur se plaignais des erreurs de fréquence assez importante dû au vieillissement des résistances du contacteur rotatif et des condensateurs. 
 Project actuel : 
@@ -20,7 +22,7 @@ Inutile de dire que le software se trouve dans cle dossier 😉
 
 Je vous souhaite bien du plaisir pour réaliser ce petit projet cher au passionné des chauve souris dont je fais partie dans le groupe des volontaire Plecotus de Natagora Belgique. 
 
-
+_____________________________________________________________
 
 ## Initial project:
 The first version of the sound/ultarson generator was based on a NE555 well known to our elders of which I am a part, but the main disadvantage is its stability over time, due to the component used for the generation of the analog rectangular signal. Many users complained of fairly significant frequency errors due to the aging of the rotary contactor resistors and capacitors.
