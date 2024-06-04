@@ -1,0 +1,6 @@
+Print Infos:
+Type de fil :  PLA ou PETG
+Taux de remplissage 15%
+Hauteur de couche 0.2mm
+
+Logicile 3D :  FreeCad 2.0
