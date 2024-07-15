@@ -1,0 +1,60 @@
+G21 G40 G49 G80 G90 G94 (initialisation)
+S10000
+
+; Fraise Bois 8mm
+; Wood Tool 8mm
+;G57
+
+G0 Z20
+G0 X0 Y0
+Z1 
+M0
+
+G0 X37 Y23
+M03
+
+G1 X-37 Z-3.5 F300 
+G3 X-41. Y19. I0. J-4. 
+G1 Y-19. 
+G3 X-37. Y-23. I4. J0. 
+G1 X37. 
+G3 X41. Y-19. I0. J4. 
+G1 Y19. 
+G3 X37. Y23. I-4. J0. 
+
+
+G1 X-36  
+G1 Y-19 
+G1 X-31 
+G1 Y19
+G1 X36
+G1 Y-19 
+G1 X31
+
+G1 Y23 
+
+
+G1 X-27 Z-7 F300 
+G3 X-31. Y19. I0. J-4. 
+G1 Y-19. 
+G3 X-27. Y-23. I4. J0. 
+G1 X27. 
+G3 X31. Y-19. I0. J4. 
+G1 Y19. 
+G3 X27. Y23. I-4. J0. 
+
+G1 X-27 Z-12 F300 
+G3 X-31. Y19. I0. J-4. 
+G1 Y-19. 
+G3 X-27. Y-23. I4. J0. 
+G1 X27. 
+G3 X31. Y-19. I0. J4. 
+G1 Y19. 
+G3 X27. Y23. I-4. J0. 
+G1 X-27
+G0 Z1
+
+M5
+G0 Z35.00
+G0 X0 Y0
+M2
